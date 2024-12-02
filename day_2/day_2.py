@@ -1,6 +1,7 @@
 def remove_i(arr, i):
     return arr[:i] + arr[i + 1:]
 
+
 def check_diff(diff, diff_before):
     if diff > 0 > diff_before:
         return False
@@ -9,6 +10,7 @@ def check_diff(diff, diff_before):
     elif diff > 3 or diff < -3 or diff == 0:
         return False
     return True
+
 
 def check_safe(arr):
     diff_before = arr[1] - arr[0]
@@ -21,6 +23,7 @@ def check_safe(arr):
         diff_before = diff
     return True
 
+
 def is_safe_with_dampener(arr):
     if check_safe(arr):
         return True
@@ -29,6 +32,7 @@ def is_safe_with_dampener(arr):
         if check_safe(new_arr):
             return True
     return False
+
 
 input_file = open('input.txt', 'r')
 lines = input_file.readlines()
