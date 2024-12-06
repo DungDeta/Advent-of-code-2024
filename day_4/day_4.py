@@ -1,4 +1,6 @@
 import numpy as np
+import sys
+sys.setrecursionlimit(10**6)
 
 with open('input.txt', 'r') as input_file:
     lines = [line.strip() for line in input_file.readlines()]
