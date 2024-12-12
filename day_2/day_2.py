@@ -1,6 +1,8 @@
-import numpy as np
 import sys
-sys.setrecursionlimit(10**6)
+
+sys.setrecursionlimit(10 ** 6)
+
+
 def remove_i(arr, i):
     return arr[:i] + arr[i + 1:]
 

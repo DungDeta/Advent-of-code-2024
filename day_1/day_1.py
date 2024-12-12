@@ -1,6 +1,6 @@
-import numpy as np
 import sys
-sys.setrecursionlimit(10**6)
+
+sys.setrecursionlimit(10 ** 6)
 from collections import Counter
 
 input_file = open('input.txt', 'r')

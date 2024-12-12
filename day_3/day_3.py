@@ -1,7 +1,7 @@
 import re
-import numpy as np
 import sys
-sys.setrecursionlimit(10**6)
+
+sys.setrecursionlimit(10 ** 6)
 pattern = r"\(\d+,\d+\)"
 input_file = open('input.txt', 'r')
 lines = input_file.read()

@@ -1,7 +1,7 @@
-from collections import defaultdict, deque
-import numpy as np
 import sys
-sys.setrecursionlimit(10**6)
+from collections import defaultdict, deque
+
+sys.setrecursionlimit(10 ** 6)
 input_file = open('input.txt', 'r')
 lines = input_file.readlines()
 dict_nums: dict[int, list[int]] = {}
